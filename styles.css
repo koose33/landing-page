@@ -1,0 +1,36 @@
+body {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+header {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	margin-right: auto;
+}
+
+ul {
+	display: flex;
+	gap: 16px;
+	list-style: none;
+}
+
+.hero{
+	display: flex;
+	justify-content: space-between;
+	gap: 25px;
+}
+
+.hero-text{
+	flex: 1;
+}
+
+.hero-image {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+}
