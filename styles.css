@@ -1,18 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root {
-
-}
-
 body {
-	padding-right: 15px;
-	padding-left: 15px;
+	margin: 0;
 	font-family: Roboto;
 }
 
 header {
 	display: flex;
 	align-items: center;
+	padding: 25px 25px;
 	background-color: #1F2937;
 }
 
@@ -22,6 +18,7 @@ header {
 
 ul {
 	display: flex;
+	align-items: center;
 	gap: 16px;
 	list-style: none;
 }
@@ -30,6 +27,7 @@ ul {
 	display: flex;
 	justify-content: space-between;
 	gap: 25px;
+	padding: 25px 25px;
 }
 
 .hero-text {
@@ -41,9 +39,33 @@ ul {
 	flex: 1;
 	justify-content: center;
 	align-items: center;
+	background-color: grey;
 }
 
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.info-boxes {
+	display: flex;
+	gap: 25px;
+	justify-content: center;
+	
+}
+
+.info-box {
+	padding: 25px;
+	border: 3px solid #3b82f6;
+	border-radius: 15px;
+}
 
 footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: #1F2937;
+	color: white;
 }
