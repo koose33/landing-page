@@ -14,6 +14,7 @@ header {
 
 .logo {
 	margin-right: auto;
+	color: white;
 }
 
 ul {
@@ -28,6 +29,8 @@ ul {
 	justify-content: space-between;
 	gap: 25px;
 	padding: 25px 25px;
+	background: #1F2937;
+	color: white;
 }
 
 .hero-text {
@@ -40,6 +43,15 @@ ul {
 	justify-content: center;
 	align-items: center;
 	background-color: grey;
+}
+
+.btn-cta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 25px;
+	background-color: rgb(10, 140, 183);
+	color: white;
 }
 
 .info {
@@ -55,6 +67,13 @@ ul {
 	gap: 25px;
 	margin: 25px;
 	justify-content: center;
+}
+
+.info-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .box-border {
